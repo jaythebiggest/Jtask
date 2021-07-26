@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Include meta tag to ensure proper rendering and touch zooming -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <!-- Include jQuery Mobile stylesheets -->
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <!-- Include the jQuery library -->
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <!-- Include the jQuery Mobile library -->
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+      <!--Home Section-->
+
+    <div data-role="page" id="home" data-theme="b">
+        <div data-role="header">
+            <a href="#about">Jtask</a>
+  
+
+          <h1>Jtask©</h1>
+        </div>
+
+        <!--Main checklist-->
+        <div class="container">
+            <div id="date">
+          </div>
+              <div class="clear">
+                  <i class="fa fa-refresh"></i>
+              </div>
+
+
+          <!--To Do List-->
+          <div class="content">
+            <ul id="list">
+                <li class="item">
+                </li>
+            </ul>
+        </div>
+
+
+          <!--Add Task-->
+          <div class="add-to-do">
+            <i class="fa fa-plus-circle"></i>
+          <input type="text" id="input" placeholder="Add a to-do">
+          </div>
+        </div>
+        <div data-role="footer" data-position="fixed">
+          <h1>Jtask 2021©</h1>
+        </div>
+      
+      </div>
+
+      <!--About Section-->
+
+      <div data-role="page" id="about" data-theme="b">
+
+        <div data-role="header">
+            <a href="#" data-icon="arrow-l" data-rel="back">Back</a>
+          <h1>Jtask©</h1>
+        </div>
+        <div class="content">
+        <div data-role="main" class="ui-content">
+          <p>Jtask is a mobile app helper that reminds you to get your daily task done</p>
+        </div>
+      
+        <div data-role="footer" data-position="fixed">
+          <h1>Jtask 2021©</h1>
+        </div>
+
+
+        <div data-role="page" id="weather" data-theme="b">
+
+          <div data-role="header">
+              <a href="#" data-icon="arrow-l" data-rel="back">Back</a>
+            <h1>Jtask©</h1>
+          </div>
+          <div class="content">
+          <div data-role="main" class="ui-content">
+            <p>How is the weather?</p>
+          </div>
+        
+          <div data-role="footer" data-position="fixed">
+            <h1>Jtask 2021©</h1>
+          </div>
+    
+      </div>
+      <script src="js/app.js"></script>
+</body>
+</html>
